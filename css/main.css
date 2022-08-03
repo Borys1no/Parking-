@@ -1,13 +1,51 @@
-body{
+*{
     margin: 0;
     padding: 0;
     font-family: 'Arial', 'serif';
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
 }
 .container{
-    width: 100%;
-    display: block;
+    position: relative;
+    widows: 100%;
+    height: calc(108vh - 50px);
+    background-image: url(../assets/park.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
-.container > .banner{
-    max-width: 100%;
-   
+.text{
+    margin: 0;
+    padding: 100px;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background: rgba(0, 0, 0, 0.75);
+}
+.text h1{
+    font-size: 100px;
+}
+.text .button{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 9px 20px;
+    text-transform: uppercase;
+    width: 150px;
+    position: static;
+    display: grid;
+
+}
+.text .button:hover{
+    background-color: #fff;
+    color: black;
 }
