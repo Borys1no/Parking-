@@ -49,3 +49,11 @@
     background-color: #fff;
     color: black;
 }
+
+
+/*login*/
+.bg{
+    background-image: url(../assets/parking_isometric.jpg);
+    background-position: center center;
+    
+}
