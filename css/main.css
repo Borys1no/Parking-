@@ -21,6 +21,13 @@
 
     --primary-1100: #e6e6ff;
     --primary-1200: #ffffffff;
+
+    /*----------transiciones-----------------------*/
+    --tran-03:all 0.2s ease;
+    --tran-03:all 0.3s ease;
+    --tran-04:all 0.4s ease;
+    --tran-05:all 0.5s ease;
+
 }
 
 * {
@@ -132,34 +139,64 @@
     background-color: var(--primary-1100);
 }
 
-/*-----------------REGISTRO VEHICULOS NAVBAR-------------------------------*/
-nav {
-    background-color: var(--primary-300) ;
-}
-.text_nav .navbar-text{
-    color: #000;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    font-size: 30px;
 
-}
 
 /*-----------------REGISTRO VEHICULOS SIDEBAR-------------------------------*/
 
-
-#side_nav{
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    padding: 10px 14px;
     background: var(--primary-300);
 }
-ul li a{
+.sidebar li{
+    height: 50px;
+    margin-top: 10px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.sidebar li .icon{
     color: #fff;
-    line-height: 1.5em;
+} 
+.sidebar li .text-sideb{
+    color: #fff;
+}
+.sidebar header{
+    position: relative;
+}
+.sidebar .logo-e .loge{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-.content{
-    min-height: 100vh;
-    width: 150px;
-    
+.text-side{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.sidebar header .toggle{
+    position: absolute;
+    top: 50%;
+    right: -25px;
+    transform: translateY(-50%);
+    height: 25px;
+    width: 25px;
+    background: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+}
+.sidebar li a{
+    height: 100%;
+    align-items: center;
+    text-decoration: none;
 }
