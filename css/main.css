@@ -23,7 +23,7 @@
     --primary-1200: #ffffffff;
 
     /*----------transiciones-----------------------*/
-    --tran-03:all 0.2s ease;
+    --tran-02:all 0.2s ease;
     --tran-03:all 0.3s ease;
     --tran-04:all 0.4s ease;
     --tran-05:all 0.5s ease;
@@ -196,7 +196,17 @@
     cursor: pointer;
 }
 .sidebar li a{
-    height: 100%;
     align-items: center;
     text-decoration: none;
+    transition: var(--tran-04);
+    border-radius: 6px;
+    
+}
+.sidebar li a:hover{
+    background: var(--primary-300);
+    height: 100%;
+}
+.settings{
+    position: absolute;
+    bottom: 1px;
 }
