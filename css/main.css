@@ -210,3 +210,6 @@
     position: absolute;
     bottom: 1px;
 }
+.contenido{
+    align-items: center;
+}
