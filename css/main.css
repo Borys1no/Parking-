@@ -213,3 +213,12 @@
 .contenido{
     align-items: center;
 }
+.main-content .header{
+    width: 100%;
+    margin-left: 150px;
+    text-align: center;
+}
+.main-content .form{
+    width: 100%;
+    margin-left: 350px;
+}
