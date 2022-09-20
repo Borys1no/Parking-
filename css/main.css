@@ -217,8 +217,35 @@
     width: 100%;
     margin-left: 150px;
     text-align: center;
+    font-weight: bold;
+    font-size: 20px;
 }
 .main-content .form{
     width: 100%;
     margin-left: 350px;
+}
+.main-content .form .text-registrov{
+    font-size: 15px;
+    padding: 20px;
+}
+.form input{
+    width: 20%;
+    height: 50px;
+    font-size: 20px;
+}
+.form .select-tipo{
+    width: 20%;
+    height: 50px;
+    font-size: 20px;
+}
+.form .ingresar{
+    width: 20%;
+    height: 50px;
+    background-color: var(--primary-300);
+    border: none;
+    color: #ffffffff;
+
+}
+.form .ingresar:hover{
+    background-color: var(--primary-500);
 }
