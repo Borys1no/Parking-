@@ -62,7 +62,8 @@
         <div class="header-text">
             <span class="txt-settings"> Configuracion</span>
         </div>
-        
+        <input class="edit-profile" type="submit" value="Editar perfil"> <br>
+        <input class="historial-diario" type="submit" value="Registro diario">
     </div>
 </body>
 </html>

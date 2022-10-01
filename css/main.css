@@ -249,3 +249,12 @@
 .form .ingresar:hover{
     background-color: var(--primary-500);
 }
+.master-edit .txt-settings{
+    margin-left: 750px;
+}
+.master-edit .edit-profile{
+    margin-left: 350px;
+}
+.master-edit .historial-diario{
+    margin-left: 350px;
+}
