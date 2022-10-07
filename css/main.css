@@ -141,7 +141,7 @@
 
 
 
-/*-----------------REGISTRO VEHICULOS SIDEBAR-------------------------------*/
+/*----------------SIDEBAR-------------------------------*/
 
 .sidebar{
     position: fixed;
@@ -210,6 +210,14 @@
     position: absolute;
     bottom: 1px;
 }
+.settings .detalis-settings{
+    margin-left: 40px;
+    color: #fff;
+}
+.settings .detalis-settings a{
+    color: #fff;
+    text-decoration: none;
+}
 .contenido{
     align-items: center;
 }
@@ -252,9 +260,37 @@
 .master-edit .txt-settings{
     margin-left: 750px;
 }
-.master-edit .edit-profile{
-    margin-left: 350px;
+.master-edit .form-txt{
+    margin-left: 450px;
 }
-.master-edit .historial-diario{
-    margin-left: 350px;
+.master-edit .form-txt .txt-name{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+}
+.master-edit .form-txt .txt-lastname{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+}
+.master-edit .form-txt .txt-email{
+    width: 80%;
+    margin: 8px 0px;
+    padding: 12px 20px;
+}
+.master-edit .form-txt .txt-password{
+    width: 80%;
+    margin: 8px 0px;
+    padding: 12px 20px;
+}
+.master-edit .form-txt .btn-save{
+    width: 80%;
+    margin: 8px 0px;
+    padding: 12px 20px;
+    background-color: var(--primary-500);
+    color: #fff;
+    border: none;
+}
+.master-edit .form-txt .btn-save:hover{
+    background-color: var(--primary-700);
 }

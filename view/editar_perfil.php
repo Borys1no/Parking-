@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
     <link href="../css/main.css" rel="stylesheet" type="text/css" />
     <title>Configuracion</title>
 </head>
+
 <body>
     <!--SIDEBAR-->
     <nav class="sidebar close">
@@ -37,13 +38,11 @@
                 </ul>
 
                 <div class="settings">
-                    <ul class="menu-list">
-                        <li class="nav-link">
-                            <a href="#"><i class="far fa-tools icon"></i>
-                                <span class="text-sideb nav-text-side">Configuracion</span>
-                            </a>
-                        </li>
-                    </ul>
+                    <details class="detalis-settings">
+                        <summary class="summary-content"> <i class="far fa-tools icon"></i> Configuracion <i class="fal fa-caret-down"></i></summary>
+                        <a href="editar_perfil.php">Editar perfil</a><br>
+                        <a href="#">registro diario</a>
+                    </details>
 
                     <ul class="menu-list">
                         <li class="nav-link">
@@ -57,13 +56,36 @@
 
         </div>
     </nav>
-    <!-- Content page -->
+    <!-- Profile edit form  -->
     <div class="master-edit">
         <div class="header-text">
-            <span class="txt-settings"> Configuracion</span>
+            <span class="txt-settings">Editar Perfil</span>
         </div>
-        <input class="edit-profile" type="submit" value="Editar perfil"> <br>
-        <input class="historial-diario" type="submit" value="Registro diario">
+        <form>
+            <br>
+            <div class="form-txt">
+                <label for="">Nombres</label><br>
+                <input type="text" class="txt-name" id="">
+            </div>
+            <div class="form-txt">
+                <label for="">Apellidos</label><br>
+                <input type="text" class="txt-lastname" id="">
+            </div>
+            
+            <div class="form-txt">
+                <label for="">Email</label><br>
+                <input type="email" class="txt-email" id="">
+            </div>
+            <div class="form-txt">
+                <label for="">Password</label><br>
+                <input type="password" class="txt-password" id="">
+            </div>
+            
+            <div class="form-txt">
+                <input type="submit" value="Guardar" class="btn-save">
+            </div>
+        </form>
     </div>
 </body>
+
 </html>

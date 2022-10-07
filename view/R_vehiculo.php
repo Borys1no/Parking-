@@ -39,13 +39,11 @@
                 </ul>
 
                 <div class="settings">
-                    <ul class="menu-list">
-                        <li class="nav-link">
-                            <a href="configuracion.php"><i class="far fa-tools icon"></i>
-                                <span class="text-sideb nav-text-side">Configuracion</span>
-                            </a>
-                        </li>
-                    </ul>
+                <details class="detalis-settings">
+                    <summary class="summary-content"> <i class="far fa-tools icon"></i> Configuracion <i class="fal fa-caret-down"></i></summary>
+                    <a href="editar_perfil.php">Editar perfil</a><br>
+                    <a href="#">registro diario</a>
+                    </details>
 
                     <ul class="menu-list">
                         <li class="nav-link">
