@@ -15,14 +15,12 @@
 
 
 <body>
-    <div class="container-login w-80 mt-5 rounded shadow">
+    <div class="container-login">
         <div class="row align-items-stretch">
             <!--background-->
-            <div class="col bg d-none d-lg-block">
-                
-
+            <div class="col-md-6 bg d-none d-lg-block">
             </div>
-            <div class="loginf col">
+            <div class="loginf col-md-6">
                 <div class="fw-bold text-center py-2">
                     <p class="parking">Parking</p>
                     <p class="logo">E</p>
