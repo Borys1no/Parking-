@@ -7,26 +7,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="css/main.css" rel="stylesheet" type="text/css">
 
-    
+
 
     <title>Parking web</title>
 </head>
 
 <body>
-
+    <!--Inicio-->
     <div class="container">
         <div class="background">
             <div class="text">
                 <h1>Parking</h1>
                 <p>E</p>
                 <h2>Sistema de control de parqueo</h2>
-                <center><a href="view/login.html" class="button">Empezar</a></center>
+                <center><button id="abrir-popup" class="button">Empezar</button></center>
             </div>
         </div>
     </div>
-    
 
 
+    <!--Login-->
+    <dialog  id="login-popup" >
+        <div class="login-content">
+            <!--background-->
+            <button id="cerrar-popup"> X</button>
+
+            <!--Formulario login-->
+            <div class="log_in">
+                <div class="title">
+                    <span class="logo">Parking E</span>
+                    <span class="iniciar">Iniciar Sesion</span>
+                </div>
+                <form action="view/R_vehiculo.html" method="post">
+                    <div class="user">
+                        <label for="lbuser" class="lbuser">Usuario</label>
+                        <input type="text" name="usuario" id="usuario" class="inUser" required />
+                    </div>
+                    <div class="pass">
+                        <label for="lbpass" class="lbpass">Ingrese su contraseña</label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+                    <div class="submit">
+                        <input type="submit" value="Iniciar Sesion" class="btnIniciar">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </dialog>
+    <script>
+        const btnAbrir=document.querySelector("#abrir-popup");
+        const btnCerrar=document.querySelector("#cerrar-popup");
+        const modal=document.querySelector("#login-popup");
+
+        btnAbrir.addEventListener("click", ()=>{
+            modal.showModal();
+        })
+        btnCerrar.addEventListener("click", ()=>{
+            modal.close();
+        })
+    </script>
 </body>
 
 </html>

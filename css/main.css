@@ -37,6 +37,8 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+   
+   
 
 }
 
@@ -89,6 +91,7 @@
 
 .text .button {
     color: #fff;
+    background-color: var(--primary-300);
     text-decoration: none;
     border: 1px solid #fff;
     border-radius: 5px;
@@ -101,17 +104,21 @@
 }
 
 .text .button:hover {
-    background-color: var(--primary-200);
-    color: black;
+    background-color: var(--primary-600);
+    color: white;
+    cursor: pointer;
 }
 
 
 /*LOGIN----------------------------------------------*/
 
+#login-popup::backdrop{
+    background-color: rgba(0, 0, 0, 0.55);
+}
 
-
-
-
+#loging-popup{
+    max-width: 50ch;
+}
 
 
 /*----------------SIDEBAR-------------------------------*/
