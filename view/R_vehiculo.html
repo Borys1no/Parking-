@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="../css/main.css" rel="stylesheet" type="text/css" />
-    <title>Resgistro de vehiculo</title>
+    <title>Registro de vehiculo</title>
 </head>
 
 <body>
@@ -59,21 +59,21 @@
         <div class="header"> <span>Parking E </span></div>
         <div class="form">
             <span class="text-registrov">Registro Vehiculo</span>
-            <form action="POST">
+            <form action="R_vehiculo.html" method="post">
                 <br>
-                <label for="" class="textplacas"> Ingrese las placas del vehiculo</label><br>
+                <label for="" class="textplacas">Ingrese las placas del vehiculo</label><br>
                 <input type="text" name="placas" id="placas" ><br><br>
-                <label for="" class="txttipovehiculo">tipo de vehiculo</label><br>
+                <label for="" class="txttipovehiculo">Tipo de vehiculo</label><br>
                 <select class="select-tipo" name="select-option" >
                     <option selected>Selecciona el tipo de vehiculo</option>
                     <option value="1">Liviano</option>
-                    <option value="1">Camioneta</option>
-                    <option value="2">Pesado</option>
-                    <option value="3">Moto</option>
-                  </select><br><br>
+                    <option value="2">Camioneta</option>
+                    <option value="3">Pesado</option>
+                    <option value="4">Moto</option>
+                </select><br><br>
                 <label for="" class="fecha">Fecha de ingreso</label><br>
                 <input type="date" name="fecha-ingreso" id=""><br><br>
-                <label for="" class="txthoraingreso"> Hora de ingreso</label><br>
+                <label for="" class="txthoraingreso">Hora de ingreso</label><br>
                 <input type="time" name="horaingreso" id=""><br><br>
                 <button type="submit" class="ingresar" >Ingresar</button>
 
@@ -81,14 +81,6 @@
         </div>
 
     </div>
-
-
-
-
-
-
-
-
 </body>
 
 </html>

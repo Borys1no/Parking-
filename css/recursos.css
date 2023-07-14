@@ -1,0 +1,31 @@
+:root {
+    --primary-100: #ccccff;
+
+    --primary-200: #9999ff;
+
+    --primary-300: #6666ff;
+
+    --primary-400: #3333ff;
+
+    --primary-500: #0000ff;
+
+    --primary-600: #0000cc;
+
+    --primary-700: #000099;
+
+    --primary-800: #000066;
+
+    --primary-900: #000033;
+
+    --primary-1000: #000000;
+
+    --primary-1100: #e6e6ff;
+    --primary-1200: #ffffffff;
+
+    /*----------transiciones-----------------------*/
+    --tran-02:all 0.2s ease;
+    --tran-03:all 0.3s ease;
+    --tran-04:all 0.4s ease;
+    --tran-05:all 0.5s ease;
+
+}
